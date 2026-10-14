@@ -8,7 +8,8 @@ passagem = {
         "channel": "live_trades_btcusd"
     }
 }
-
+# Mudando
+  
 if __name__ == "__main__":
 
     try:
