@@ -15,6 +15,18 @@ def comprar_e_vender():
 
     pass
 
+def pesca(resposta):
+    quantidade= float(resposta['data']['amount_str'])
+    if quantidade >1 and quantidade < 2:
+        print('Peixe grande')
+    elif quantidade >=2 and quantidade <= 6:
+        print('Tubarão')
+    elif quantidade >6:
+        print('baleia')
+    else:
+        pass
+
+
 if __name__ == "__main__":
 
     try:
