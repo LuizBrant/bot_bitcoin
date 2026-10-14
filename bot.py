@@ -11,7 +11,9 @@ passagem = {
         "channel": "live_trades_btcusd"
     }
 }
-# Mudando
+def comprar_e_vender():
+
+    pass
 
 if __name__ == "__main__":
 
