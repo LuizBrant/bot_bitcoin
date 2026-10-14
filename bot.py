@@ -23,6 +23,8 @@ def pesca(resposta):
         print('Tubarão')
     elif quantidade >6:
         print('baleia')
+    elif quantidade >0.01:
+        print('Peixe pequeno')
     else:
         pass
 
@@ -39,7 +41,7 @@ if __name__ == "__main__":
             resposta = json.loads(ws.recv())
             if resposta.get("event") == "trade":
                 print(f"Preço do Bitcoin: ${resposta['data']['price']} , Quantidade comprada: {resposta['data']['amount_str']}")
-            
+                pesca(resposta)
     except: KeyboardInterrupt
 
     finally:
