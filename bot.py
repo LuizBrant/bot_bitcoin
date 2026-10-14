@@ -2,6 +2,9 @@ import json
 
 import websocket
 
+CARTEIRA_USD = []
+CARTEIRA_BTC = []
+
 passagem = {
     "event": "bts:subscribe",
     "data": {
@@ -9,7 +12,7 @@ passagem = {
     }
 }
 # Mudando
-  
+
 if __name__ == "__main__":
 
     try:
