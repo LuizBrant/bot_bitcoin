@@ -1,6 +1,7 @@
 import json
 
 import websocket
+import bitstamp.client
 
 CARTEIRA_USD = []
 CARTEIRA_BTC = []
