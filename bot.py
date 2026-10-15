@@ -2,6 +2,7 @@ import json
 
 import websocket
 import bitstamp.client
+import credenciais
 
 passagem = {
     "event": "bts:subscribe",
@@ -11,7 +12,7 @@ passagem = {
 }
 
 def cliente():
-    return bitstamp.client.Trading(username='999999', key='xxx', secret='xxx')
+    return bitstamp.client.Trading(username=credenciais.USERNAME, key=credenciais.KEY, secret=credenciais.SECRET)
 
 
 def comprar(quantidade):
