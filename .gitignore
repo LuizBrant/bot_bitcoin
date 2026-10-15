@@ -1,0 +1,22 @@
+```gitignore
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+
+# Configurações do editor
+.vscode/
+.idea/
+
+# Credenciais e variáveis secretas
+credenciais.py
+.env
+.env.*
+
+# Logs
+*.log
+```
