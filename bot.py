@@ -3,9 +3,6 @@ import json
 import websocket
 import bitstamp.client
 
-CARTEIRA_USD = []
-CARTEIRA_BTC = []
-
 passagem = {
     "event": "bts:subscribe",
     "data": {
